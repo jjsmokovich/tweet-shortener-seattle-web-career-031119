@@ -28,6 +28,6 @@ def word
   
 def bulk_tweet_shortener(tweets_array)
   tweets_array.collect do |tweet|
-    puts word_substituter(tweet)
   end
+  
 end
