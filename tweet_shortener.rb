@@ -27,5 +27,5 @@ end
 def word
   
 def bulk_tweet_shortener(tweets)
-  tweets.collect
+  tweets.collect |word|
 end
