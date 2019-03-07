@@ -28,4 +28,5 @@ def word
   
 def bulk_tweet_shortener(tweets)
   tweets.collect |word|
+  puts word_substituter 
 end
