@@ -29,3 +29,4 @@ def bulk_tweet_shortener(array)
     puts word_substituter(tweet)
   end
 end
+
