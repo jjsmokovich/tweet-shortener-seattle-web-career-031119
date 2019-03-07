@@ -24,7 +24,7 @@ def word_substituter(tweet)
   .join(" ")
 end
 
-def bulk_tweet_shortener(array)
+def bulk_tweet_shortener(tweets_arrau)
   tweets_array.collect do |tweet|
     puts word_substituter(tweet)
   end
