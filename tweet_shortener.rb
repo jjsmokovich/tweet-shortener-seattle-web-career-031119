@@ -26,13 +26,13 @@ end
 
 def bulk_tweet_shortener(array)
   array.collect do |tweet|
-   word_substituter(tweet)
+   print word_substituter(tweet)
   end
 end
 
 def selective_tweet_shortener(tweet)
   if tweet.chars.length > 140  
-    puts word_substituter(tweet)
+     word_substituter(tweet)
   else 
     tweet 
   end 
