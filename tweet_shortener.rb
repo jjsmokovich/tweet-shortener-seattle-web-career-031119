@@ -32,7 +32,7 @@ end
 
 def selective_tweet_shortenr(tweet)
   if tweet.char.length > 140
-    print word_substituter(tweet)
+    puts word_substituter(tweet)
   else
    tweet
   end
